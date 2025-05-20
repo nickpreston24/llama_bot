@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CodeMechanic.Async" Version="1.0.4" />
+    <PackageReference Include="CodeMechanic.Diagnostics" Version="1.0.4" />
+    <PackageReference Include="CodeMechanic.FileSystem" Version="2.0.12" />
+    <PackageReference Include="CodeMechanic.Shargs" Version="1.0.4" />
+    <PackageReference Include="LLamaSharp" Version="0.23.0" />
+    <PackageReference Include="LLamaSharp.Backend.Cpu" Version="0.24.0" />
+    <PackageReference Include="LLamaSharp.Backend.Cuda11" Version="0.24.0" />
+    <PackageReference Include="LLamaSharp.Backend.Cuda12" Version="0.24.0" />
+    <PackageReference Include="LLamaSharp.Backend.OpenCL" Version="0.13.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.3" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="Sharprompt" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
